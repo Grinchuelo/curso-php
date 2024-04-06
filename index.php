@@ -27,7 +27,7 @@ curl_close($ch);
     <hgroup>
         <h3> <?= $data["title"]; ?> se estrena en <?= $data["days_until"]; ?> días </h3>
         <p> Fecha de estreno: <?= $data["release_date"]; ?> </p>
-        <p> La siguiente es: <?= $data["following_production"]["title"]; ?> </p>
+        <p> A continuación: <?= $data["following_production"]["title"]; ?> </p>
     </hgroup>
 </main>
 
